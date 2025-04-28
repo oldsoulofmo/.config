@@ -27,9 +27,4 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
--- Packer setup
-require('packer').startup(function(use)
-    use 'wbthomason/packer.nvim'
-    use 'lervag/vimtex'
-end)
 
