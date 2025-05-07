@@ -21,7 +21,7 @@ end)
 -- 2) set up mason and mason-lspconfig, using lsp-zero’s default_setup
 require('mason').setup()
 require('mason-lspconfig').setup({
-  ensure_installed = { 'clangd', 'lua_ls', 'tsserver', 'rust_analyzer' },
+  ensure_installed = { 'clangd', 'lua_ls', 'ts_ls', 'rust_analyzer' },
   handlers = {
     -- for every server not listed below, lsp-zero will call its default setup
     lsp.default_setup,

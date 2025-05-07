@@ -16,7 +16,11 @@ return require('packer').startup(function(use)
 
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
-  use 'morhetz/gruvbox'
+  use "webhooked/kanso.nvim"
+
+  use 'lervag/vimtex'
+
+  use {'iamcco/markdown-preview.nvim'}
 
   use {
     "VonHeikemen/lsp-zero.nvim",
@@ -39,5 +43,11 @@ return require('packer').startup(function(use)
       { "rafamadriz/friendly-snippets" },
     },
   }
+
+
+
+
+
+
 
 end)
